@@ -9,18 +9,18 @@ const mail = {
             port: 465,
             secure: true, // true for 465, false for other ports
             auth: {
-                user: 'dunshaw520@163.com', // generated ethereal user      发送方的邮箱地址
-                pass: 'dxwork1991' // generated ethereal password   smtp 验证码
+                user: 'xxxxxxx@163.com', // generated ethereal user      发送方的邮箱地址
+                pass: 'xxxxxxx' // generated ethereal password   smtp 验证码
             }
         });
         
         // send mail with defined transport object   邮件信息
         let mailinfo = {
-        from: '"Fred Foo 👻" <dunshaw520@163.com>', // sender address
-        to: tomail, // list of receivers
-        subject: "Hello ✔", // Subject line
-        // text: "Hello ", // plain text body
-        html: "<b>"+toinfo+"</b>" // html body 
+          from: '"Fred Foo 👻" <xxxxxxx.com>', // sender address
+          to: tomail, // list of receivers
+          subject: "Hello ✔", // Subject line
+          // text: "Hello ", // plain text body
+          html: "<b>"+toinfo+"</b>" // html body 
         };
         // text和html只能有一个   text只能输文本，字符串
         // 发送邮件
