@@ -1,4 +1,5 @@
 let name ={
+    
     sayhello(){
         console.log('你好 美眉')
     }

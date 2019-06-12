@@ -69,3 +69,17 @@
  - 当前目录结构
  - 分辨是文件还是文件夹
 
+
+### 内置模块 fs
+
+
+### 内置模块 url  QueryString
+url 统一资源定位图
+> url.png
+
+
+### 邮箱验证码案例
+```邮箱是免费的，短信是花钱的```
++ nodemailer 可以实现发邮件
++ [npm 官网](https://www.npmjs.com/)
++ 封装一个mail.js 直接使用Mail.send(对象邮箱，信息)
