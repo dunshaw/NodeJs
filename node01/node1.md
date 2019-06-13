@@ -83,3 +83,9 @@ url 统一资源定位图
 + nodemailer 可以实现发邮件
 + [npm 官网](https://www.npmjs.com/)
 + 封装一个mail.js 直接使用Mail.send(对象邮箱，信息)
+
+
+### 爬虫案例
+    1. 获取目标网站   http.get
+    2. 分析网站内容   cheerio 可以使用jq里的选择器
+    3. 获取有效信息 下载或者其他操作
